@@ -1,1 +1,0 @@
-if (!auth()->check() || !auth()->user()->role || auth()->user()->role->name !== $role)
